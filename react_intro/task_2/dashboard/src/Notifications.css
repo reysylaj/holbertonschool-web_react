@@ -1,0 +1,20 @@
+.Notifications {
+  border: 1px solid #e1354b;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff8f8;
+  position: relative; /* This is necessary for positioning the close button */
+}
+
+.Notifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Notifications li[data-priority="default"] {
+  color: blue;
+}
+
+.Notifications li[data-priority="urgent"] {
+  color: red;
+}
